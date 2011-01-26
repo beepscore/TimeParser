@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'TimeParser' target in the 'TimeParser' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

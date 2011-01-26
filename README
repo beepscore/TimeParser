@@ -1,0 +1,5 @@
+TimeParser is an iOS application that parses time.
+It converts an ISO 8601 string to an NSDate and back.
+References:
+https://github.com/square/iso8601parser#readme
+http://boredzo.org/iso8601parser/
