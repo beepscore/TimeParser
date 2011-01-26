@@ -16,6 +16,9 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* TimeParserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TimeParserViewController.m */; };
 		DE0EBA5E12F0B035009214F4 /* README in Resources */ = {isa = PBXBuildFile; fileRef = DE0EBA5D12F0B035009214F4 /* README */; };
+		DECDA7BB12F0D8CC00A3A6CD /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DECDA7B812F0D8CC00A3A6CD /* ISO8601DateFormatter.m */; };
+		DECDA7BC12F0D8CC00A3A6CD /* ISO8601ParserLICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DECDA7B912F0D8CC00A3A6CD /* ISO8601ParserLICENSE.txt */; };
+		DECDA7BD12F0D8CC00A3A6CD /* ISO8601ParserREADME.txt in Resources */ = {isa = PBXBuildFile; fileRef = DECDA7BA12F0D8CC00A3A6CD /* ISO8601ParserREADME.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,10 @@
 		32CA4F630368D1EE00C91783 /* TimeParser_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeParser_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TimeParser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TimeParser-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		DE0EBA5D12F0B035009214F4 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DECDA7B712F0D8CC00A3A6CD /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISO8601DateFormatter.h; path = ISO8601Parser/ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		DECDA7B812F0D8CC00A3A6CD /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISO8601DateFormatter.m; path = ISO8601Parser/ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		DECDA7B912F0D8CC00A3A6CD /* ISO8601ParserLICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ISO8601ParserLICENSE.txt; path = ISO8601Parser/ISO8601ParserLICENSE.txt; sourceTree = "<group>"; };
+		DECDA7BA12F0D8CC00A3A6CD /* ISO8601ParserREADME.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ISO8601ParserREADME.txt; path = ISO8601Parser/ISO8601ParserREADME.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +78,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DECDA7B612F0D8AE00A3A6CD /* ISO8601Parser */,
 				DE0EBA5D12F0B035009214F4 /* README */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -108,6 +116,17 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DECDA7B612F0D8AE00A3A6CD /* ISO8601Parser */ = {
+			isa = PBXGroup;
+			children = (
+				DECDA7B712F0D8CC00A3A6CD /* ISO8601DateFormatter.h */,
+				DECDA7B812F0D8CC00A3A6CD /* ISO8601DateFormatter.m */,
+				DECDA7B912F0D8CC00A3A6CD /* ISO8601ParserLICENSE.txt */,
+				DECDA7BA12F0D8CC00A3A6CD /* ISO8601ParserREADME.txt */,
+			);
+			name = ISO8601Parser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +181,8 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* TimeParserViewController.xib in Resources */,
 				DE0EBA5E12F0B035009214F4 /* README in Resources */,
+				DECDA7BC12F0D8CC00A3A6CD /* ISO8601ParserLICENSE.txt in Resources */,
+				DECDA7BD12F0D8CC00A3A6CD /* ISO8601ParserREADME.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +196,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* TimeParserAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* TimeParserViewController.m in Sources */,
+				DECDA7BB12F0D8CC00A3A6CD /* ISO8601DateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
